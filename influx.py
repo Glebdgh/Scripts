@@ -9,8 +9,8 @@ try:
 except:
     print("Failed!")
 
-for client in client.get_list_database():
-    print(client['name'])
+for clien in client.get_list_database():
+    print(clien['name'])
 
 json_body = [
     {
